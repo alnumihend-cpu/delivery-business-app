@@ -84,5 +84,24 @@ Right now, workers check their notes and messages and try to remember which stor
 | **Messages between workers** | Allow workers to share information and communicate. | Information can get scattered across conversations, making it difficult to find updates and know which information is current. |
 | **Memory** | Helps workers remember familiar stores and locations. | Workers can forget visits, deliveries, collections, and payment information, especially when they have many responsibilities. |
 
+## 4. Features & Benefits
+
+| Feature | Benefit | Priority |
+|---|---|---|
+| Shared store list with addresses | Workers can find stores and know which ones need visits. | MVP |
+| Delivery tracking | Workers can record deliveries and mark them completed. | MVP |
+| Payment tracking | Workers can record payments and see outstanding balances. | MVP |
+| Worker accounts and assignments | Workers can see their assigned deliveries. | Later |
+| GPS and closest-stop suggestions | Workers can find nearby unfinished stops. | Later |
+| Manager dashboard | Managers can review deliveries and payments. | Later |
+
+### My MVP
+
+My first version will focus on organizing store information, tracking completed deliveries, and recording payments. These features will help workers keep important information in one place instead of relying on notebooks, messages, and memory.
+
+### Not Doing Yet
+
+The first version will not include advanced route optimization, automatic payment processing, or detailed business reports. These features may be considered in future versions.
+
 ## START THE PROJECT 
 - FINISH THIS PROJECT 
