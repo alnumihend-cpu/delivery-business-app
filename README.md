@@ -12,13 +12,18 @@ I am a computer science student helping a family member find a solution to probl
 
 Workers drive between stores without an organized visiting order. They try to remember which stores are nearby and which ones they have not visited. Sometimes they check papers or messages or drive around to find another store.
 
-**Situation 2: Counting Money at Home**
+What it costs: Extra driving time, unnecessary fuel expenses, and the possibility of missing stores or deliveries.
 
-Workers try to piece together payment information after returning home. They have difficulty determining which stores have paid, which still owe money, and how much money was received.
+**Situation 2: Confusion About Payment Collection**
 
-**Situation 3: Managing Daily Deliveries and Collections**
+A worker visits a store but is unsure whether the store has already paid or still owes money. Since payment information is written in different notebooks or shared through messages, the worker has to check with another worker or look through previous records. This wastes time and can result in missed payments or unnecessary trips back to the store.
 
-Workers sometimes miss deliveries or forget to collect money because they rely on memory, notebooks, and messages to keep track of their responsibilities.
+What it costs: Extra time checking payment records, possible missed collections, and confusion between workers.
+
+**Situation 3: Missing a Store During Deliveries**
+Workers sometimes forget to visit a store because they have several deliveries to complete and no organized list showing which stores have already been visited. They may realize later that a store was missed and have to return to that area to complete the delivery.
+
+What it costs: Extra driving time, additional fuel expenses, delayed deliveries, and frustration for both workers and store owners.
 
 ---
 
