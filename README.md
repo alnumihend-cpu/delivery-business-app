@@ -103,5 +103,23 @@ My first version will focus on organizing store information, tracking completed 
 
 The first version will not include advanced route optimization, automatic payment processing, or detailed business reports. These features may be considered in future versions.
 
+## 5. Tech Stack
+
+| Part | Technology | Why I Chose It |
+|---|---|---|
+| Front End | React and JavaScript | To build the screens, forms, and buttons for the delivery app. |
+| Back End | Supabase | To manage and retrieve delivery and payment information. |
+| Database | Supabase PostgreSQL | To store information about stores, deliveries, and payments. |
+| Hosting | Vercel | To publish the app online so workers can access it. |
+| Version Control | Git and GitHub | To save changes and track my progress. |
+
+### How the App Will Work
+
+Workers will open the app in their browser. React will display the store list, deliveries, and payment forms. Supabase will securely store the information in a database. Vercel will host the app online.
+
+### Why I Chose This Stack
+
+I chose these technologies because they have beginner tutorials, documentation, and tools that can help me build my first application. I want to start with a simple version and add more features as I learn.
+
 ## START THE PROJECT 
 - FINISH THIS PROJECT 
