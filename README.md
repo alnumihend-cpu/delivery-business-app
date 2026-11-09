@@ -78,3 +78,5 @@ Right now, workers check their notes and messages and try to remember which stor
 | **Messages between workers** | Allow workers to share information and communicate. | Information can get scattered across conversations, making it difficult to find updates and know which information is current. |
 | **Memory** | Helps workers remember familiar stores and locations. | Workers can forget visits, deliveries, collections, and payment information, especially when they have many responsibilities. |
 
+## START THE PROJECT 
+- FINISH THIS PROJECT 
