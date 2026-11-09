@@ -121,5 +121,15 @@ Workers will open the app in their browser. React will display the store list, d
 
 I chose these technologies because they have beginner tutorials, documentation, and tools that can help me build my first application. I want to start with a simple version and add more features as I learn.
 
+### Architecture Diagram
+
+```mermaid
+flowchart TD
+    A["Delivery Worker"] --> B["React + JavaScript Web App"]
+    B --> C["Supabase Backend / API"]
+    C --> D["PostgreSQL Database"]
+    E["Vercel Hosting"] -.-> B
+```
+
 ## START THE PROJECT 
 - FINISH THIS PROJECT 
