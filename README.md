@@ -62,6 +62,7 @@ Right now, workers check their notes and messages and try to remember which stor
 
 ### I'll Know This Is Solved When...
 
+- The app should make daily responsibilities easier to understand without requiring workers to search through multiple notebooks or messages.
 - Delivery workers can easily identify which stores need to be visited each day.
 - Workers know whether each stop requires a delivery or money collection.
 - Workers spend less time searching and driving unnecessarily.
