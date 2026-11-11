@@ -86,50 +86,67 @@ Right now, workers check their notes and messages and try to remember which stor
 
 ## 4. Features & Benefits
 
-| Feature | Benefit | Priority |
-|---|---|---|
-| Shared store list with addresses | Workers can find stores and know which ones need visits. | MVP |
-| Delivery tracking | Workers can record deliveries and mark them completed. | MVP |
-| Payment tracking | Workers can record payments and see outstanding balances. | MVP |
-| Worker accounts and assignments | Workers can see their assigned deliveries. | Later |
-| GPS and closest-stop suggestions | Workers can find nearby unfinished stops. | Later |
-| Manager dashboard | Managers can review deliveries and payments. | Later |
+### Implemented MVP Features
+
+| Feature | What the current app does |
+|---|---|
+| Store Management | Add stores with a name and address, and view the store list. |
+| Delivery Tracking | Create deliveries for a selected store, view pending and completed deliveries, and mark individual deliveries as completed. Delivery status is tracked separately from payment status. |
+| Payment Tracking | Select a store, record an amount owed and an amount collected, and view its remaining balance and payment status. Workers can also mark a store as fully paid; when there is an outstanding balance, the app asks for confirmation before recording it as collected. |
+
+The app also shows store balance groups for **Still Owe**, **Fully Paid**, and **No Balance Recorded**, along with delivery-status summaries. Payment and delivery statuses are independent.
 
 ### My MVP
 
-My first version will focus on organizing store information, tracking completed deliveries, and recording payments. These features will help workers keep important information in one place instead of relying on notebooks, messages, and memory.
+My first version focuses on organizing store information, tracking deliveries, and recording payments. The current implementation is a local React app; its information is temporary and is not yet shared or saved to a database.
 
-### Not Doing Yet
+### Future Features (Not Yet Implemented)
 
-The first version will not include advanced route optimization, automatic payment processing, or detailed business reports. These features may be considered in future versions.
+Worker accounts and assignments, GPS and closest-stop suggestions, a manager dashboard, advanced route optimization, automatic payment processing, and detailed business reports are future ideas. They are not included in the current MVP.
 
 ## 5. Tech Stack
 
-| Part | Technology | Why I Chose It |
+| Part | Technology | Status |
 |---|---|---|
-| Front End | React and JavaScript | To build the screens, forms, and buttons for the delivery app. |
-| Back End | Supabase | To manage and retrieve delivery and payment information. |
-| Database | Supabase PostgreSQL | To store information about stores, deliveries, and payments. |
-| Hosting | Vercel | To publish the app online so workers can access it. |
-| Version Control | Git and GitHub | To save changes and track my progress. |
+| Front end | React and JavaScript | Implemented |
+| Development/build tool | Vite | Implemented in the `client` folder |
+| Back end and database | Supabase and PostgreSQL | Planned. Database tables have been started, but Supabase is not connected to the React app. |
+| Hosting | Vercel | Planned. The app currently runs locally and is not deployed. |
+| Version control | Git and GitHub | Used to save and track project changes. |
 
 ### How the App Will Work
 
-Workers will open the app in their browser. React will display the store list, deliveries, and payment forms. Supabase will securely store the information in a database. Vercel will host the app online.
+In the current version, Vite runs the React app locally in a browser. React displays the store list, delivery tracking, and payment forms. The app temporarily keeps this information in React state; it is not currently saved permanently.
+
+In a future version, the React app is planned to connect to Supabase, which will store the information in a PostgreSQL database. Vercel hosting is also planned so workers can access the app online.
 
 ### Why I Chose This Stack
 
 I chose these technologies because they have beginner tutorials, documentation, and tools that can help me build my first application. I want to start with a simple version and add more features as I learn.
 
-### Architecture Diagram
+### Planned Architecture
 
 ```mermaid
 flowchart TD
     A["Delivery Worker"] --> B["React + JavaScript Web App"]
-    B --> C["Supabase Backend / API"]
+    B --> C["Supabase Backend / API (planned connection)"]
     C --> D["PostgreSQL Database"]
-    E["Vercel Hosting"] -.-> B
+    E["Vercel Hosting (planned)"] -.-> B
 ```
 
-## START THE PROJECT 
-- FINISH THIS PROJECT 
+## Current Implementation Status
+
+- The implemented MVP runs locally from the Vite project in the `client` folder.
+- Store, delivery, and payment information is held temporarily in React state. It can disappear when the page is refreshed or closed.
+- Supabase is not connected to the React app. Database tables have been started, and permanent database storage is planned.
+- The app is not deployed. Vercel hosting is planned.
+
+To run the app locally, open a terminal in the `client` folder and run:
+
+```bash
+npm run dev
+```
+
+## Demo
+
+Video link: _Add after recording._
