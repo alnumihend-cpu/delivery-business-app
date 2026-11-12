@@ -12,7 +12,7 @@ I am a computer science student helping a family member find a solution to probl
 
 Workers drive between stores without an organized visiting order. They try to remember which stores are nearby and which ones they have not visited. Sometimes they check papers or messages or drive around to find another store.
 
-What it costs: Extra driving time, unnecessary fuel expenses, and the possibility of missing stores or deliveries.
+What it costs: Extra driving time, unnecessary fuel expenses and the possibility of missing stores or deliveries.
 
 **Situation 2: Confusion About Payment Collection**
 
@@ -53,15 +53,15 @@ Because information can be difficult to find, update, and share. Workers may not
 
 **5. Why is having one organized source of information important?**
 
-Because current and future workers need access to clear, up-to-date business information so they can understand their daily responsibilities, keep track of deliveries and payments, and continue the work without relying on another worker's memory or scattered records.
+Because current and future workers need access to clear, up to date business information so they can understand their daily responsibilities, keep track of deliveries and payments and continue the work without relying on another worker's memory or scattered records.
 
 ### Complete Problem Description
 
-When delivery workers start their workday and travel between delis, grocery stores, and markets, they struggle to organize which stores to visit, which deliveries or collections are due, and which businesses have paid or still owe money.
+When delivery workers start their workday and travel between delis, grocery stores, and markets, they struggle to organize which stores to visit, which deliveries or collections are due and which businesses have paid or still owe money.
 
-This costs them at least two hours per day, according to my estimate, and can lead to missed deliveries, unnecessary trips, forgotten collections, and stress.
+This costs them at least two hours per day, according to my estimate, and can lead to missed deliveries, unnecessary trips, forgotten collections and stress.
 
-This happens because store addresses, delivery tasks, and payment records are scattered across notebooks, papers, memory, and messages between workers.
+This happens because store addresses, delivery tasks, and payment records are scattered across notebooks, papers, memory and messages between workers.
 
 Right now, workers check their notes and messages and try to remember which stores they have visited, but this process makes information difficult to find, update, and share consistently with current and future workers.
 
@@ -98,7 +98,7 @@ The app also shows store balance groups for **Still Owe**, **Fully Paid**, and *
 
 ### My MVP
 
-My first version focuses on organizing store information, tracking deliveries, and recording payments. The current implementation is a local React app; its information is temporary and is not yet shared or saved to a database.
+My first version focuses on organizing store information, tracking deliveries, and recording payments. The current implementation is a local React website its information is temporary and is not yet shared or saved to a database.
 
 ### Future Features (Not Yet Implemented)
 
