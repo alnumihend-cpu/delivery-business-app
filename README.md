@@ -149,4 +149,4 @@ npm run dev
 
 ## Demo
 
-Video link: _Add after recording._
+(https://drive.google.com/file/d/15-3cyccKm_O64wUzgSTXtd5zQsx9Haxp/view?usp=sharing)
